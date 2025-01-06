@@ -46,7 +46,7 @@ const Explore = () => {
           <NavigationButton
             label={"Resume"}
             link={
-              "https://www.dropbox.com/scl/fi/t8dnyk2ymkdfowjq16r1u/AdityaDolasResume.pdf?rlkey=uc57ynmeiiu4xwuhw1ehl53i6&st=iiprkat5&dl=0"
+              "https://www.dropbox.com/scl/fi/6x4ixpu8x5c0wy5ucv8gv/AdityaDolasResume-5.pdf?rlkey=ctyrcp23czso3k7a20cz4fohb&st=8np3zfkn&dl=0"
             }
             background={"bg-transparent"}
             hoverEffect={"hover:bg-gray-500"}
