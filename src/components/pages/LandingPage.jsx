@@ -36,7 +36,7 @@ const LandingPage = () => {
         <NavigationButton
           label={"Resume"}
           link={
-            "https://www.dropbox.com/scl/fi/90tqw8d13j6feh8xw9oyn/ADITYADOLAS-TEMPLATE-RESUME-ATS.docx?rlkey=9869g5utjvny39gce1t45eut8&st=saeyig2p&dl=0"
+            "https://www.dropbox.com/scl/fi/6x4ixpu8x5c0wy5ucv8gv/AdityaDolasResume-5.pdf?rlkey=ctyrcp23czso3k7a20cz4fohb&st=8np3zfkn&dl=0"
           }
           background={"bg-black"}
           hoverEffect={"hover:bg-gray-800"}
