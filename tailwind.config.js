@@ -6,6 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+    fontSize: {
+      'xs': '0.5rem',
+      'sm': '0.675rem',
+      'base': '0.75rem',
+      'lg': '0.875rem',
+      'xl': '1rem',
+      '2xl': '1.125rem',
+      '3xl': '1.25rem',
+      '4xl': '1.5rem',
+      '5xl': '1.75rem',
+      '6xl': '2rem',
+    },
+    scale: {
+      75: '0.75', 
+    },
       boxShadow: {
         glow: '0 0 10px #00ff00, 0 0 20px #00ff00',
         redglow: '0 4px 10px #DC143C',  // Customize glow color
