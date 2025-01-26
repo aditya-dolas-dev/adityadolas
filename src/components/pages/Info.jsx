@@ -20,15 +20,19 @@ const Info = () => {
           onClick={() => {
             navigate("/");
           }}
-          className="inline-block h-[35px] w-[150px] text-[24px] ml-3 mt-6 font-serif text-center"
+          className="inline-block h-[35px] w-[150px] text-[20px] ml-3 mt-6 font-serif text-center"
         >
-          Aditya Dolas <p className="text-[12px]">Fullstack developer</p>
+          Aditya Dolas <p className="text-[10px]">Fullstack developer</p>
         </a>
-        <ToggleButton currentState={"info"} />
+        <div className="flex-col items-center bg-transparent inline-flex h-[100px] w-[300px] ml-[300px] mb-[15px] mt-2 fixed z-50">
+          <ToggleButton currentState={"info"} />
+        </div>
         <div className="flex top-0 right-0 justify-end mt-6 mr-4 text-white gap-3 fixed ">
           <NavigationButton
             label={"LinkedIn"}
-            link={"https://www.linkedin.com"}
+            link={
+              "https://www.linkedin.com/in/aditya-dolas-366a52346/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            }
             background={"bg-transparent"}
             hoverEffect={"hover:bg-gray-500"}
           />
@@ -41,7 +45,7 @@ const Info = () => {
           <NavigationButton
             label={"Resume"}
             link={
-              "https://www.dropbox.com/scl/fi/6x4ixpu8x5c0wy5ucv8gv/AdityaDolasResume-5.pdf?rlkey=ctyrcp23czso3k7a20cz4fohb&st=8np3zfkn&dl=0"
+              "https://www.dropbox.com/scl/fi/2bwqi0exy6nkg4qmya6pw/Resume-Aditya-Dolas.pdf?rlkey=t4i29zp6ep9oti8nouh8rcyio&st=h5u88gjz&dl=0"
             }
             background={"bg-transparent"}
             hoverEffect={"hover:bg-gray-500"}
@@ -59,18 +63,17 @@ const Info = () => {
         <div className="bg-transparent text-[silver] font-libre text-sm m-0">
           <div className="max-w-[1400px] w-full mx-auto p-5">
             <section className="grid grid-cols-6 gap-12 mt-24">
-              <h2 className="col-span-6 text-center text-[7em] autoShow">
+              <h2 className="col-span-6 text-center text-[5em] autoShow">
                 Introduce
               </h2>
             </section>
             <section className="grid grid-cols-6 gap-12 mt-36">
-              <h2 className="col-span-6 text-center text-[3em] text-bold autoShow text-teal-500">
+              <h2 className="col-span-6 text-center text-[3em] text-bold autoShow text-white">
                 I'm enthusiastic about creating extraordinary applications that{" "}
-                <br /> <br />
-                <i className="shadow-lg inset-5  font-serif ">
+                <div className="italic text-teal-500">
                   {" "}
                   empowers individuals
-                </i>
+                </div>
               </h2>
             </section>
 
@@ -91,7 +94,7 @@ const Info = () => {
               {/* left side */}
               <div className="col-span-3 autoShow mt-4">
                 <p>
-                  <span className="font-bold text-[22px] text-teal-500">
+                  <span className="font-bold text-[20px] text-teal-500">
                     My Background in Engineering
                   </span>{" "}
                   In Dec of 2024, I graduated from Engineering college at the{" "}
@@ -110,7 +113,7 @@ const Info = () => {
               {/* right side= */}
               <div className="col-span-3 autoShow mt-14">
                 <p>
-                  <span className="font-bold text-[24px] text-teal-500">
+                  <span className="font-bold text-[20px] text-teal-500">
                     In my spare time
                   </span>
                   <br />

@@ -20,7 +20,7 @@ const Button = () => {
         initial="hidden"
         animate="visible"
         transition={{ duration: 3, delay: 3.1 }}
-        className="inline-flex items-center py-4 px-8  text-white rounded-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition shadow-custom p-4 border border-[silver]"
+        className="inline-flex items-center py-3 px-8  text-white rounded-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition shadow-custom p-4 border border-[silver]"
       >
         <button onClick={explorePage}>Explore</button>
       </motion.div>

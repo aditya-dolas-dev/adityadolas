@@ -21,9 +21,9 @@ const Explore = () => {
           onClick={() => {
             navigate("/");
           }}
-          className="inline-block h-[35px] w-[150px] text-[24px] ml-3 mt-6 font-serif text-center"
+          className="inline-block h-[35px] w-[150px] text-[20px] ml-3 mt-6 font-serif text-center"
         >
-          Aditya Dolas <p className="text-[12px]">Fullstack developer</p>
+          Aditya Dolas <p className="text-[10px]">Fullstack developer</p>
         </a>
         <div className="flex-col items-center bg-transparent inline-flex h-[100px] w-[300px] ml-[300px] mb-[15px] mt-2 fixed z-50">
           <ToggleButton currentState={"work"} />
@@ -32,7 +32,7 @@ const Explore = () => {
           <NavigationButton
             label={"LinkedIn"}
             link={
-              "https://www.linkedin.com/in/aditya-dolas-a5a213345?utm_source=share&utm_campaign=share_via&utm"
+              "https://www.linkedin.com/in/aditya-dolas-366a52346/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             }
             background={"bg-transparent"}
             hoverEffect={"hover:bg-gray-500"}
@@ -46,7 +46,7 @@ const Explore = () => {
           <NavigationButton
             label={"Resume"}
             link={
-              "https://www.dropbox.com/scl/fi/6x4ixpu8x5c0wy5ucv8gv/AdityaDolasResume-5.pdf?rlkey=ctyrcp23czso3k7a20cz4fohb&st=8np3zfkn&dl=0"
+              "https://www.dropbox.com/scl/fi/2bwqi0exy6nkg4qmya6pw/Resume-Aditya-Dolas.pdf?rlkey=t4i29zp6ep9oti8nouh8rcyio&st=h5u88gjz&dl=0"
             }
             background={"bg-transparent"}
             hoverEffect={"hover:bg-gray-500"}
