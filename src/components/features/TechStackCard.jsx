@@ -3,7 +3,7 @@ import React from "react";
 
 const TechStackCard = () => {
   return (
-    <div className="max-w-7xl h-52 mx-auto my-2 px-0 sm:px-6 py-6 border-neutral-600 border-2 rounded-lg flex gap-0 sm:gap-4 items-center bg-foreground sm:flex-row flex-col">
+    <div className="max-w-6xl h-52 mx-auto my-2 px-0 sm:px-6 py-6 border-neutral-600 border-2 rounded-lg flex gap-0 sm:gap-4 items-center bg-foreground sm:flex-row flex-col">
       <div classNameName="p-4 w-11/12">
         <div className="flex gap-2 flex-wrap">
           <div className="flex items-center gap-2 justify-center bg-[#2e2e2e] px-6 text-[16px] font-medium py-2.5 w-fit rounded-full mb-1">

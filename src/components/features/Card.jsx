@@ -3,9 +3,9 @@ import { ArrowRight } from "lucide-react";
 
 const Card = ({ label, link, description, imgsrc }) => {
   return (
-    <div className="w-full flex justify-center items-center h-[100vh] border border-[silver] rounded-lg">
+    <div className="w-[500px] flex justify-center items-center h-[100vh] border border-[silver] rounded-lg">
       {/* Fixed width container */}
-      <div className="w-[850px]">
+      <div className="w-[480px]">
         {/* Card content */}
         <div className="relative">
           {/* Outer glare effect */}

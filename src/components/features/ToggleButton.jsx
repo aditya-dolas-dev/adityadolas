@@ -17,11 +17,11 @@ const ToggleButton = ({ currentState }) => {
   }, [location.pathname]);
 
   return (
-    <div className="flex-col items-center bg-transparent inline-flex h-[100px] w-[300px] ml-[600px] mb-[15px] mt-2 fixed">
-      <div className="relative flex justify-between bg-gray-800 rounded-full p-1 w-[202px] h-[68px] border border-[silver] mt-1 mb-2 ">
+    <div className="flex-col items-center bg-transparent inline-flex h-[100px] w-[300px] ml-[150px] mb-[15px] mt-5 fixed">
+      <div className="relative flex justify-between bg-gray-800 rounded-full p-1 w-[186px] h-[58px] border border-[silver] mt-1 mb-2 ">
         {/* Toggle Background Animation */}
         <motion.div
-          className="absolute bg-gray-600 rounded-full h-14 w-24 border border-[silver] gap-2"
+          className="absolute bg-gray-600 rounded-full h-[46px] w-[80px] border border-[silver] gap-2"
           layout
           initial={false}
           transition={{ type: "spring", stiffness: 500, damping: 30 }}

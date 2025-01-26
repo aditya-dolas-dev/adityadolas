@@ -23,7 +23,9 @@ const LandingPage = () => {
       >
         <NavigationButton
           label={"LinkedIn"}
-          link={"https://www.linkedin.com"}
+          link={
+            "https://www.linkedin.com/in/aditya-dolas-366a52346/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          }
           background={"bg-black"}
           hoverEffect={"hover:bg-gray-800"}
         />
@@ -36,7 +38,7 @@ const LandingPage = () => {
         <NavigationButton
           label={"Resume"}
           link={
-            "https://www.dropbox.com/scl/fi/6x4ixpu8x5c0wy5ucv8gv/AdityaDolasResume-5.pdf?rlkey=ctyrcp23czso3k7a20cz4fohb&st=8np3zfkn&dl=0"
+            "https://www.dropbox.com/scl/fi/2bwqi0exy6nkg4qmya6pw/Resume-Aditya-Dolas.pdf?rlkey=t4i29zp6ep9oti8nouh8rcyio&st=h5u88gjz&dl=0"
           }
           background={"bg-black"}
           hoverEffect={"hover:bg-gray-800"}
@@ -50,7 +52,7 @@ const LandingPage = () => {
           animate="visible"
           transition={{ duration: 4, delay: 0.7 }}
         >
-          <h1 className="font-sans font-bold text-6xl mb-4 bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent overflow-hidden tracking-[0.4em]">
+          <h1 className="font-sans font-bold text-[50px] mb-4 bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent overflow-hidden tracking-[0.4em]">
             ADITYA DOLAS{" "}
           </h1>
           <motion.div
@@ -58,7 +60,7 @@ const LandingPage = () => {
             initial="hidden"
             animate="visible"
             transition={{ duration: 4, delay: 0.7 }}
-            className="flex font-serif text-xl justify-center mt-9 text-gray-200"
+            className="flex font-serif text-2xl justify-center mt-9 text-gray-200"
           >
             <h3>Full Stack Developer</h3>
           </motion.div>
